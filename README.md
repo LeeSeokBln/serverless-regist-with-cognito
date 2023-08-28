@@ -8,32 +8,47 @@ API Gateway Authentication using Cognito
 3. 변환 된 Credentials을 사용하여 AWS에 Access한다.
 
 ### Create Cognito User Pool
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/1c6cbf60-e7ac-4498-9355-0166166fa185)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/5e8b2b7f-34c6-481c-a8ba-76368eb77251)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/c5460ded-fd3c-43a1-9944-5f4d0f92a2c3)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/c0aef501-b78a-44fb-aee1-b44f273914e0)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/d862dd7d-a272-4aca-9e67-9a938867aa85)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/6a0d7ea7-0663-4b09-9c70-baace1d33a6e)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/46c49d88-04d7-4826-991b-d7d6fd9cdec4)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/bb42fb4e-26de-4b8e-a014-916fe3a7bd8a)
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/e8f5a86c-0c61-45aa-bc60-ffe24b539818)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/40c0652f-8066-460e-bf7b-e33ab6151596)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/1056801d-6405-423f-b571-c79a426f8c17)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/5d9f333e-bca4-421a-a6e2-4d2a45a357f5)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/5c1b225a-6ae3-4cd8-bbfc-1e7280166add)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/23922e56-13bd-4ae2-bca0-bbd1496337be)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/22bb34fa-7845-42e5-9bfd-bfe64cb0fab3)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/38e5215b-3a67-40b1-b6ef-db84d9c352cb)
 
 Cognito를 생성
 
 ### Setting API Gateway
 API에서 REST API 사용시 Cognito를 사용하여 사용자 인증이 가능하도록 구성
 
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/91f2ecfa-05ae-422a-8330-3f881f8ff4a6)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/4de46e8c-8577-4010-90cd-c4cbed361f6b)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/ec6df31a-3345-4190-9e49-08ad54afd03f)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/de198f5b-467f-4475-8ef0-eea1524290e0)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/a5574da7-5ba1-4b15-9580-e4c741bb9a2e)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/eec14f18-d40c-46f0-b395-4e9e7d74a492)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/638c0631-cf2b-476a-b3fd-ff4dbec5fb9a)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/1a66af37-191e-4ffe-a735-54fad733e480)
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/cdeca288-c32d-493f-b618-20234b08a27c)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/ae5357a0-e74a-42f3-81bd-78db34d0ee38)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/60db428c-e46e-49b6-b900-c4a2d021b157)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/313c3376-db8f-482a-a65e-cd7d861a3960)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/76af2be5-d836-4af0-987a-2e3ef5c9fdb1)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/b453aa75-5941-4d91-87d1-ab13b1192657)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/be6cca5e-843d-41c3-abc9-7e11723d18d8)
+
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/2e9eb6de-29aa-4cd3-97e9-507193201b70)
+
 
 Domain에  reponse_type이 token인 것을 알 수 있다.
 
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/38c06479-9f8e-4934-9642-28c0dd25b6e5)
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/d620f6c9-03f3-45ea-98c2-04959e803cb9)
 
 Sign Up을 눌러 회원가입
 
@@ -46,7 +61,8 @@ Sign Up을 눌러 회원가입
 
 코드를 기억하고 아래와 같이 입력
 
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/4cfd5fe7-e454-4d16-aab6-e770154bf856)
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/89f2bcce-e39b-4fc6-984a-2ec18d14aa0f)
+
 
 가입한 유저로 로그인
 
@@ -58,15 +74,16 @@ token이 생성 됨
 
 Token을 복사 후 API Gateway에서 확인
 
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/5482bd75-88f2-4d0a-a028-90db426e62d0)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/80a99a03-60e2-4bbe-a5bd-4430b4ee6066)
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/c2c005ee-0ca1-4b80-8fea-460fa594dbf7)
+
 ![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/17f78d4f-b65d-4227-bd13-0eb3efc19638)
 
 ### Authorizer API
 API Gateway에 Access하면 Cognito인증을 통해서만 접근이 가능하도록 구성
 
 ![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/adf8ab33-5044-48dd-ba56-fbb909f8bfe7)
-![Untitled](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/c018e53f-5a00-48d2-8b3f-3e2edbd8c4df)
+![image](https://github.com/LeeSeokBln/serverless-regist-with-cognito/assets/101256150/36889723-f11e-457d-b629-4a7b807c3871)
+
 
 배포를 하고 접근해보면 API가 Unauthorized라는 오류를 반환
 
